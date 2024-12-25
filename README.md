@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in React Router v6 involving catch-all routes. The catch-all route (`/*`) unintentionally captures all routes, including those specifically defined earlier.  This leads to the other routes never being matched, effectively making them useless. This example illustrates the problem and its solution.
